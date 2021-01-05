@@ -1,0 +1,5 @@
+# Dont track these folders
+node_modules
+
+#Dont track these extensions
+*.swp
