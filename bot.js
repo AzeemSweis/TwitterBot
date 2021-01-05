@@ -3,11 +3,11 @@ console.log("The bot is online!");
 var request = require('request');
 var Twit = require("twit");
 var config = require("./config");
-//var weather = require("openweather-apis");
-//var weather = require('weather-js');
+
 
 //config twitter api
 var T = new Twit(config);
+
 var currentTemp;
 var minTemp;
 var maxTemp;
