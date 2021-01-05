@@ -1,16 +1,17 @@
 module.exports = {
   //twitter api configs
-  consumer_key:         'QtcZMtfyvgcgCU2SjLbq5lI9v',
-  consumer_secret:      'DL7r4OuzzE59Fy1rU8FCtuVsW4UuTMmC6QYzUTabgojLlzS1lv',
-  access_token:         '1346239072784683008-QMwLtomKJOv02Unxb3thvQFNoJHpa4',
-  access_token_secret:  '6uaZjDP1qHFhOu6376DdYBqazWZkpvGQ3A2MF3uMymFJd',
+  consumer_key:         ['YOUR CONSUMER KEY'],
+  consumer_secret:      ['YOUR CONSUMER SECRET KEY'],
+  access_token:         ['YOUR ACCESS TOKEN'],
+  access_token_secret:  ['YOUR CONSUMER SECRET TOKEN'],
   //timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
   //strictSSL:            true,     // optional - requires SSL certificates to be valid.
 
   //openweather api configs
-  apiLink: 'http://api.openweathermap.org/data/2.5/weather?q=',
-  city: 'Las Vegas',
-  appID: ['&appid=', 'a2fd6266b5ee4bb303a0f3324d95ec4f'],
-  units: ['&units=','imperial']
-
+  apiLink: 'https://api.openweathermap.org/data/2.5/onecall?',
+  lat: ['lat=', '36.11464'],
+  lon: ['&lon=', '-115.172813'],
+  units: ['&units=','imperial'],
+  exclude: ['&exclude=', 'minutely,hourly'],
+  appID: ['&appid=', 'YOUR OPENWEATHER API KEY']
 }
